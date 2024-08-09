@@ -17,18 +17,18 @@ public class App {
         System.out.println(ethan.getName() + " weight: " + childrensHospital.weigh(ethan) + " kilos");
         System.out.println(peter.getName() + " weight: " + childrensHospital.weigh(peter) + " kilos");
 
-        System.out.println("weighings performed: " + childrensHospital.weighings());
+        System.out.println("Weighing performed: " + childrensHospital.weighings());
 
         childrensHospital.weigh(ethan);
         childrensHospital.weigh(peter);
 
-        System.out.println("weighings performed: " + childrensHospital.weighings());
+        System.out.println("Weighing performed: " + childrensHospital.weighings());
 
         childrensHospital.weigh(ethan);
         childrensHospital.weigh(ethan);
         childrensHospital.weigh(ethan);
         childrensHospital.weigh(ethan);
 
-        System.out.println("weighings performed: " + childrensHospital.weighings());
+        System.out.println("Weighing performed: " + childrensHospital.weighings());
     }
 }
